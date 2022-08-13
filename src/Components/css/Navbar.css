@@ -1,0 +1,63 @@
+/* .navbar{
+    background-color: #f2f2f2 !important;
+} */
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7px;
+    
+}
+nav li {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-left: 50px;
+    font-weight: 500;
+    color: white;
+}
+.navbar-brand{ 
+    font-size: 1.5rem;
+    color: rgb(147, 43, 147);
+    font-weight: 600;
+    font-family: 'Oleo Script Swash Caps', cursive;
+  
+}
+
+nav ul li :hover{
+    color: rgb(64, 62, 62);
+    
+} 
+
+.cart-icon{
+    display: flex;
+    text-align: center;
+    /* color: rgb(85, 83, 83); */
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    font-size: 27px;
+    margin-right: 20px;
+ }
+#cart{
+    color: rgb(43, 41, 41);
+ }
+ #cart:hover{
+    color:rgb(66, 62, 62);
+ }
+ .cart-icon p{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    right: -0.7rem;
+    bottom: 0.5rem;
+    border-radius: 50%;
+    background: #99cbf7;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

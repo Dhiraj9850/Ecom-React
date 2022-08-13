@@ -1,0 +1,61 @@
+.form-control{
+    margin-left: 10rem;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+}
+#card h5{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    font-size: 13px;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    width: 60%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+img{
+    height: 250px;
+}
+.card-text{
+    height: 92px;
+    font-family: 'PT Sans', sans-serif;
+}
+.button{
+  display: flex;
+  align-items: flex-end;
+}
+#cardbtn{
+   display: inline-block;
+   margin: auto;
+   width: 500px;
+}
+.price{
+   font-weight: 600;
+   font-family: 'Lato', sans-serif;
+   color: rgb(95, 91, 91);
+}
+.brand-name{
+    display: flex;
+    flex-direction:row;
+}
+.brand{
+    margin-top: 4px;
+}
+.brand-name p{
+    background-color: rgb(53, 122, 53);
+    padding: 2px;
+    margin-right: 7px;
+    border-radius: 13px;
+    color: white;
+}
